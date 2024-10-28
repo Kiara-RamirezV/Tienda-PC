@@ -1,0 +1,113 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #343a40;
+}
+
+p {
+    color: #6c757d;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.carousel img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.container h2 {
+    font-size: 1.75rem;
+    color: #007bff;
+}
+
+.container p {
+    font-size: 1rem;
+    color: #495057;
+}
+
+.row h2 {
+    color: #dc3545;
+    font-size: 1.5rem;
+}
+
+.text-danger {
+    color: #dc3545 !important;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .carousel img {
+        height: 300px;
+    }
+
+    .card-img-top {
+        height: 200px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+}
